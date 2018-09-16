@@ -1,0 +1,16 @@
+function() {
+  if(!SUCCEEDED(Operation1())) {
+    return OPERATION1FAILED;
+  }
+  if(!SUCCEEDED(Operation2())) {
+    return OPERATION2FAILED;
+  }
+  if(!SUCCEEDED(Operation3())) {
+    return OPERATION3FAILED;
+  }
+  if(!SUCCEEDED(Operation4())) {
+    return OPERATION4FAILED;
+  }
+
+  return S_OK;
+}
