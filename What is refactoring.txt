@@ -1,0 +1,1 @@
+The refactoring is to improve the old code soruce to be easy to understand and simplify.
